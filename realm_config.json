@@ -1,0 +1,7 @@
+{
+    "app_id": "mongostore-app-iychh",
+    "config_version": 20210101,
+    "name": "mongostore-app",
+    "location": "US-VA",
+    "deployment_model": "GLOBAL"
+}
