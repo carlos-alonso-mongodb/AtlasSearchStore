@@ -1,1 +1,34 @@
-[]
+[
+    {
+        "name": "addProduct",
+        "private": false,
+        "can_evaluate": {
+            "%%user.custom_data.isEditor": true
+        }
+    },
+    {
+        "name": "createUser",
+        "private": true
+    },
+    {
+        "name": "getProduct",
+        "private": false
+    },
+    {
+        "name": "resetFunc",
+        "private": true
+    },
+    {
+        "name": "updateProduct",
+        "private": false
+    },
+    {
+        "name": "updateProductCatalog",
+        "private": false
+    },
+    {
+        "name": "autocompleteNames",
+        "private": false,
+        "run_as_system": true
+    }
+]

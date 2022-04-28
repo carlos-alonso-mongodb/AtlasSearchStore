@@ -1,0 +1,17 @@
+{
+    "collection": "products",
+    "database": "mongoshop",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {
+                "default1": "%%user.id"
+            },
+            "read": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
