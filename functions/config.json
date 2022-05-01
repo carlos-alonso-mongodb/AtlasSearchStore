@@ -1,12 +1,5 @@
 [
     {
-        "name": "addProduct",
-        "private": false,
-        "can_evaluate": {
-            "%%user.custom_data.isEditor": true
-        }
-    },
-    {
         "name": "autocompleteNames",
         "private": false,
         "run_as_system": true
@@ -31,5 +24,12 @@
     {
         "name": "updateProductCatalog",
         "private": false
+    },
+    {
+        "name": "addProduct",
+        "private": false,
+        "can_evaluate": {
+            "%%user.custom_data.isEditor": true
+        }
     }
 ]
