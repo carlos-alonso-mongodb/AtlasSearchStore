@@ -50,7 +50,7 @@ exports = async function(payload, response) {
           should:[],
           filter:[]
         },
-         highlight:{path:{'value':'main_description','multi':['english','french','spanish']}}
+         highlight:{path:'main_description'}
       }
     },
     { $project: {
